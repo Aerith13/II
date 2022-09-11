@@ -6,9 +6,11 @@ int main()
     int i,sum=0;
     float a,b,c,d,x,n;
 
+//asks user to input n of subjects
     cout<<"Enter subject: ";
     cin>>n;
 
+//init.
     for(i=1;i<=n;++i)
     {
         cout<<"\n 1st year subject "<<i<<" : ";
@@ -41,8 +43,8 @@ int main()
 		d = sum / n;       
     }
         
-    
-	  cout<<"\nAverage: \n";
+//print average
+	cout<<"\nAverage: \n";
     cout<<"1st year " << a;
     cout<<"\n2nd year " << b;
     cout<<"\n3rd year " << c;
