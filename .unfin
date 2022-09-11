@@ -23,7 +23,7 @@ int main()
     {	    
 		cout<<"\n 2nd year subject "<<i<<" : ";
         cin>>x;
-        sum = x * n;
+        sum+=n;
 		b = sum / n;       
     }
     
@@ -31,7 +31,7 @@ int main()
     {	    
 		cout<<"\n 3rd year subject "<<i<<" : ";
         cin>>x;
-        sum = x * n;
+        sum+=n;
 		c = sum / n;       
     }
     
@@ -39,7 +39,7 @@ int main()
     {	    
 		cout<<"\n 4th year subject "<<i<<" : ";
         cin>>x;
-        sum = x * n;
+        sum+=n;
 		d = sum / n;       
     }
         
