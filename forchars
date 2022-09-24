@@ -1,0 +1,40 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    char str[100];
+    int i,vow=0,cons=0, num=0, spc=0, sign=0;
+    cout<<"Enter a string: \n";
+    
+    gets(str);
+    
+    for(i=0; str[i]; i++){
+        if(str[i] == 'a'|| str[i] == 'e'|| str[i] == 'i'|| str[i] == 'o'|| str[i] == 'u'
+    ||str[i] == 'A'|| str[i] == 'E'|| str[i] == 'I'|| str[i] == 'O'|| str[i] == 'U' ){
+        vow++;
+    }
+    else if((str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z' )){
+        cons++;
+    }
+    else if((str[i]>='0' && str[i]<='9')){
+    	num++;
+    }
+    else if((str[i]==' ')){
+    	spc++;
+    }
+    else{
+    	sign++;
+    }
+}
+cout<<"\nVOWELS: "<<vow;
+cout<<"\nCONSONANTS: "<<cons;
+cout<<"\nNUMBERS: "<<num;
+cout<<"\nSPACES: "<<spc;
+cout<<"\nSIGN: "<<sign;
+
+    return 0;
+}
