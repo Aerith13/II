@@ -31,7 +31,7 @@ int main()
     }
 }
 
-getsch();
+//getsch();
 
 cout<<"\nVOWELS: "<<vow;
 cout<<"\nCONSONANTS: "<<cons;
