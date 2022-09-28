@@ -30,11 +30,15 @@ int main()
     	sign++;
     }
 }
+
+getsch();
+
 cout<<"\nVOWELS: "<<vow;
 cout<<"\nCONSONANTS: "<<cons;
 cout<<"\nNUMBERS: "<<num;
 cout<<"\nSPACES: "<<spc;
 cout<<"\nSIGN: "<<sign;
+
 
     return 0;
 }
